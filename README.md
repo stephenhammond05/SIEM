@@ -1,14 +1,14 @@
-# 🛡️ Wazuh SIEM Home Lab
+# Wazuh SIEM Home Lab
 
 This project demonstrates a home lab setup using the Wazuh SIEM to detect and respond to various cyberattacks in a simulated enterprise network. The environment includes a domain controller, Windows clients, a Kali Linux attacker machine, and a centralized Wazuh manager running on Ubuntu Server.
 
-## 🔍 Purpose
+## Purpose
 
 To gain real-world experience with Security Information and Event Management (SIEM) systems, Windows Event Log analysis, Active Directory monitoring, and incident response using open-source tools.
 
 ---
 
-## 🧱 Lab Architecture
+## Lab Architecture
 
 - **Wazuh Manager**: Ubuntu Server VM (Wazuh, Filebeat, and Kibana)
 - **Windows Server 2019**: Domain Controller (Active Directory, DNS)
@@ -20,18 +20,15 @@ To gain real-world experience with Security Information and Event Management (SI
 
 ---
 
-## 🧪 Attack Scenarios Tested
+## Attack Scenario Tested
 
 | Scenario | Tool Used | Detection Source | Wazuh Alert |
 |----------|-----------|------------------|-------------|
 | SSH brute-force attack | `hydra` from Kali | `/var/log/auth.log` | SSH authentication failure |
-| Malicious file drop | EICAR test file | FIM (File Integrity Monitoring) | Malware detection alert |
-| Failed domain logins | Incorrect RDP/SMB credentials | Windows Security Log (4625) | Failed logon alert |
-| Privilege escalation attempt | Metasploit exploit | Event ID 4672 | Admin logon attempt |
 
 ---
 
-## ⚙️ Setup Documentation
+##  Setup Documentation
 
 - [`setup/ubuntu-wazuh-setup.md`](setup/ubuntu-wazuh-setup.md): Install and configure Wazuh Manager
 - [`setup/windows-agent-setup.md`](setup/windows-agent-setup.md): Configure agents on Windows machines
@@ -40,7 +37,7 @@ To gain real-world experience with Security Information and Event Management (SI
 
 ---
 
-## 📊 Wazuh Dashboards
+## Wazuh Dashboards
 
 Screenshots of alerts and dashboards from the Wazuh Kibana interface.
 
@@ -48,14 +45,14 @@ Screenshots of alerts and dashboards from the Wazuh Kibana interface.
 
 ---
 
-## 📁 Rules and Configuration
+## Rules and Configuration
 
 - [`rules/custom-wazuh-rules.xml`](rules/custom-wazuh-rules.xml): Custom detection rules
 - [`rules/ignored-events.conf`](rules/ignored-events.conf): Noise filtering for false positives
 
 ---
 
-## 📓 Incident Reports
+## Incident Reports
 
 - [`incidents/ssh-brute-force.md`](incidents/ssh-brute-force.md): Detection and analysis of SSH attack
 - [`incidents/windows-login-failure.md`](incidents/windows-login-failure.md): Failed login attempts
@@ -63,7 +60,7 @@ Screenshots of alerts and dashboards from the Wazuh Kibana interface.
 
 ---
 
-## 🧠 Skills Demonstrated
+## Skills Demonstrated
 
 - SIEM configuration and tuning
 - Windows and Linux log analysis
@@ -73,8 +70,9 @@ Screenshots of alerts and dashboards from the Wazuh Kibana interface.
 
 ---
 
-## 🚀 Future Plans
+## Future Plans
 
 - Integrate TheHive for case management
 - Add Suricata for IDS detection
 - Simulate phishing scenarios and lateral movement
+- Include TheHive for incident response
