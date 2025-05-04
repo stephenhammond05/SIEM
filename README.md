@@ -39,7 +39,7 @@ To gain real-world experience with Security Information and Event Management (SI
 
 ## Wazuh Dashboards
 
-Screenshots of alerts and dashboards from the Wazuh Kibana interface.
+Screenshots of alerts and dashboards from the Wazuh interface.
 
 ![SSH Brute Force Alert](dashboard-screenshots/alert-example-ssh.png)
 
@@ -50,13 +50,6 @@ Screenshots of alerts and dashboards from the Wazuh Kibana interface.
 - [`rules/custom-wazuh-rules.xml`](rules/custom-wazuh-rules.xml): Custom detection rules
 - [`rules/ignored-events.conf`](rules/ignored-events.conf): Noise filtering for false positives
 
----
-
-## Incident Reports
-
-- [`incidents/ssh-brute-force.md`](incidents/ssh-brute-force.md): Detection and analysis of SSH attack
-- [`incidents/windows-login-failure.md`](incidents/windows-login-failure.md): Failed login attempts
-- [`incidents/wazuh-agent-alerts.md`](incidents/wazuh-agent-alerts.md): Tampering and config change alerts
 
 ---
 
@@ -65,7 +58,6 @@ Screenshots of alerts and dashboards from the Wazuh Kibana interface.
 - SIEM configuration and tuning
 - Windows and Linux log analysis
 - Network security monitoring
-- Incident response documentation
 - Attack simulation using Kali Linux
 
 ---
