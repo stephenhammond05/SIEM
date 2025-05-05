@@ -51,4 +51,3 @@ I used the official all-in-one Wazuh install script:
 ### Recommended Setting
 
 - To avoid accidental updates that might break the environment, disable Wazuh auto updates.
-- 
