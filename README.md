@@ -31,7 +31,7 @@ To gain real-world experience with Security Information and Event Management (SI
 ##  Setup Documentation
 
 - [`setup/ubuntu-wazuh-setup.md`](setup/ubuntu-wazuh-setup.md): Install and configure Wazuh Manager
-- [`setup/windows-agent-setup.md`](setup/windows-agent-setup.md): Configure agents on Windows machines
+- [`setup/agent_setup.md`](setup/agent_setup.md): Configure agents on Windows machines
 - [`setup/ad-domain-setup.md`](setup/ad-domain-setup.md): Domain controller and GPO setup
 - [`setup/kali-attack-scripts`](setup/kali-attack-scripts): Sample commands/scripts used for attacks
 
