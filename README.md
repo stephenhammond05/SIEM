@@ -11,7 +11,7 @@ To gain real-world experience with Security Information and Event Management (SI
 ## Lab Architecture
 
 - **Wazuh Manager**: Ubuntu Server VM (Wazuh)
-- **Windows Server 2019**: Domain Controller (Active Directory, Wazuh Agent)
+- **Windows Server 2019**: Domain Controller (Active Directory, DNS)
 - **Windows 10 Clients**: Joined to domain, Wazuh agent installed
 - **Kali Linux**: Attacker machine used to simulate threats
 - **Network**: All systems on a VirtualBox Host-Only adapter (`10.0.2.x`)
@@ -30,10 +30,8 @@ To gain real-world experience with Security Information and Event Management (SI
 
 ##  Setup Documentation
 
-- [`setup/ubuntu-wazuh-setup.md`](setup/ubuntu-wazuh-setup.md): Install and configure Wazuh Manager
-- [`setup/agent_setup.md`](SIEM/agent_setup.md): Configure agents on Windows machines
-- [`setup/ad-domain-setup.md`](setup/ad-domain-setup.md): Domain controller and GPO setup
-- [`setup/kali-attack-scripts`](setup/kali-attack-scripts): Sample commands/scripts used for attacks
+- [`Wazuh Setup`](wazuh-setup.md): Install and configure Wazuh Manager
+- [`Agent Setup`](agent_setup.md): Configure agents on Windows machines
 
 ---
 
