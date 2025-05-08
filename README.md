@@ -10,8 +10,8 @@ To gain real-world experience with Security Information and Event Management (SI
 
 ## Lab Architecture
 
-- **Wazuh Manager**: Ubuntu Server VM (Wazuh, Filebeat, and Kibana)
-- **Windows Server 2019**: Domain Controller (Active Directory, DNS)
+- **Wazuh Manager**: Ubuntu Server VM (Wazuh)
+- **Windows Server 2019**: Domain Controller (Active Directory, Wazuh Agent)
 - **Windows 10 Clients**: Joined to domain, Wazuh agent installed
 - **Kali Linux**: Attacker machine used to simulate threats
 - **Network**: All systems on a VirtualBox Host-Only adapter (`10.0.2.x`)
