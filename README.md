@@ -42,7 +42,7 @@ Screenshots of alerts and dashboards from the Wazuh interface.
 ![kalihydra](https://github.com/user-attachments/assets/e704f7f3-02ab-4a43-ab12-70ea3bff546f)
 - High severity Dashboard.
 ![kalihighseverity](https://github.com/user-attachments/assets/0d64b3a1-5e1c-421e-bbf7-2a4c86226f57)
-- What the alert actually looks like.
+- Sample Alert View.
 ![flooded](https://github.com/user-attachments/assets/fc5649aa-3c51-492c-bd67-f5cb03b2c5ea)
 
 
